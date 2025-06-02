@@ -1,4 +1,4 @@
-def depsoit():
+def deposit():
     while True:
         amount = input("Enter the amount to deposit: ")
         if amount.isdigit():
@@ -11,3 +11,7 @@ def depsoit():
             print("Invalid input. Please enter a valid amount.")
 
     return amount
+
+
+def main():
+    balance = deposit()
